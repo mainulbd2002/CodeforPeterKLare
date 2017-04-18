@@ -38,7 +38,7 @@ public class StringTrunctorImpl implements IStringTrunctor{
         finalStringBld.append(markStr);
         finalStringBld.append(origStr.substring(secondOffset));
         
-        return null;
+        return finalStringBld.toString();
     }
     
 }
