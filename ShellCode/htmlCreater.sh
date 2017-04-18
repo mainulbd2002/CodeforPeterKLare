@@ -1,8 +1,8 @@
 #Creating script to replace HTML placeholders
 
 
-prop=$1
-in_file=$2
+in_file=$1
+prop=$2
 out_file=$3
 
 if ! [ -f "$in_file" ]
