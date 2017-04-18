@@ -5,12 +5,18 @@
  */
 package com.mainul.optuscodetest;
 
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  *
  * @author Mainul
  */
+@SpringBootApplication
 public class SubscriptionLoggerApp {
     
-    
+    public static void main(String[] args) {
+        SpringApplication.run(SubscriptionLoggerApp.class, args);
+    }
     
 }
