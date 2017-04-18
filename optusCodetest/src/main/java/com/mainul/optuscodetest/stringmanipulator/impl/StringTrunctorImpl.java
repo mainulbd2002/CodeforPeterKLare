@@ -25,8 +25,8 @@ public class StringTrunctorImpl implements IStringTrunctor{
         int markStringLen = markStr.length();
         
         // If the original string length is less than truncated length, no need to do anything
-        
-        if (origStringLen < truncatedLen)
+        // if truncated length is lower than marker length no need to do anything
+        if (origStringLen < truncatedLen || truncatedLen < markStringLen)
             return origStr;
         
         
